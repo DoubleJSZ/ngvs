@@ -1,0 +1,9 @@
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\bin\Debug\ngvs.exe
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\bin\Debug\ngvs.pdb
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.csprojResolveAssemblyReference.cache
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.Form1.resources
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.Properties.Resources.resources
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.csproj.GenerateResource.Cache
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.exe
+C:\Users\Pp\documents\visual studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.pdb
+C:\Users\Pp\Documents\Visual Studio 2013\Projects\ngvs\ngvs\obj\Debug\ngvs.intro.resources

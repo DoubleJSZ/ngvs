@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87717D67-5A61-4214-AD55-27F6126DE2AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ngvs</RootNamespace>
+    <AssemblyName>ngvs</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intro.Designer.cs">
+      <DependentUpon>intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intro.resx">
+      <DependentUpon>intro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28421%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayrun1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayrun2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayrun3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayidle1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayidle2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjrun2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjrun3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjidle1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjidle2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjrun1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battle_ost.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayfall3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayfall1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayfall2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayjump1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayjump2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayjump3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayjump4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayattack3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayattack1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayattack2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haybend2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haybend1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ng.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuriken2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuriken1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryuhayabusa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro_ost.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ending_ost.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_ost.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjilunch1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninjilunch2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hayattacked.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gameover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameover_ost.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinematic_1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
